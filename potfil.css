@@ -2,34 +2,39 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: red;
-    color: blue;
+    background-color: lightgrey;
+    color: gray;
 }
 
 header {
-    background-color: pink;
-    color: purple;
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 40px;
 }
 
+
 nav a {
-    color: green;
+    color: black;
     text-decoration: none;
     margin: 10px;
 }
 
 nav a:hover {
-    color: gold;
+    color: blue;
 }
 
 section {
-    background-color: gray;
+    background-color: black;
     margin: 25px auto;
     padding: 25px;
     max-width: 900px;
     border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
+
 
 .project {
     background-color: white;
